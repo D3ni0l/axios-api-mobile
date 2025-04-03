@@ -35,7 +35,7 @@ export default function App(){
       style={globalStyles.input}
       placeholder='Digite o nome do filme'
       value={pesquisa}
-      onChandeText={handlePesquisa}
+      onChangeText={handlePesquisa}
     />
 
     <Text style = { globalStyles.titulo }>
